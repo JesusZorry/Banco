@@ -77,4 +77,10 @@ public class CuentaCorriente {
         System.out.println("El Saldo de la Cuenta: $" + this.Saldo);
     
     }
+    public boolean comparar(CuentaCorriente c2){
+        if (this.nroCuenta == c2.nroCuenta){
+            return true;
+        }
+        return false;
+    }
 }
